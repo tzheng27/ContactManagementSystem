@@ -1,43 +1,21 @@
-/* ------------------------------------------------------------------
-Name:				Tian Zheng
-Student number:		155 394 174
-Email:				tzheng26@myseneca.ca
-Section:			GG
-Date:				Aug 4, 2018
-----------------------------------------------
-Assignment: 2
-Milestone:  4
----------------------------------------------- */
 
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 
-// This source file needs to "know about" the SYSTEM string library functions.
-// HINT: The library name is string.h.
-//       #include the string.h header file on the next line:
+
 #include <string.h>
 #include <ctype.h>
 
-// ----------------------------------------------------------
-// Include your contactHelpers header file on the next line:
+
 #include "contactHelpers.h"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 
 
-// ----------------------------------------------------------
-// define MAXCONTACTS for sizing contacts array (5):
+
 #define MAXCONTACTS 5
 #define PHONELENGTH 11
 
 
-//------------------------------------------------------
-// Function Definitions
-//------------------------------------------------------
-
-// +-------------------------------------------------+
-// | NOTE:  Copy/Paste your Assignment-2 Milestone-3 |
-// |        function definitions below...            |
-// +-------------------------------------------------+
 
 struct Contact theWalkingDead[MAXCONTACTS] =
 { { { "Rick",{ '\0' }, "Grimes" },
@@ -214,10 +192,6 @@ void ContactManagerSystem(void)
 		} while (userChoice == 0);
 }
 
-// +-------------------------------------------------+
-// | NOTE:  Copy/Paste your Assignment-2 Milestone-3 |
-// |        empty function definitions below...      |
-// +-------------------------------------------------+
 
 // getTenDigitPhone:
 void getTenDigitPhone(char telNum[])
@@ -270,7 +244,7 @@ int findContactIndex(const struct Contact findCon[], int size, const char cellNu
 	for (i = 0; i < size && stop == 0; i++)
 	{
 		if (strcmp(findCon[i].numbers.cell, cellNum) == 0)
-		{¡¢
+		{Â¡Â¢
 			stop = 1;
 		}
 	}

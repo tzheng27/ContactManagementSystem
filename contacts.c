@@ -1,30 +1,14 @@
-/* ------------------------------------------------------------------
-Name:				Tian Zheng
-Student number:		155 394 174
-Email:				tzheng26@myseneca.ca
-Section:			GG
-Date:				Aug 4, 2018
-----------------------------------------------
-Assignment: 2
-Milestone:  4
----------------------------------------------- */
 
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 #include <string.h>
 
-// +-------------------------------------------------+
-// | NOTE:  Include additional header files...       |
-// +-------------------------------------------------+
+
 #include "contacts.h"
 #include "contactHelpers.h"
 
 
-// +-------------------------------------------------+
-// | NOTE:  Copy/Paste your Assignment-2 Milestone-3 |
-// |        source code below...                     |
-// +-------------------------------------------------+
 
 // getName:
 void getName(struct Name* name)
